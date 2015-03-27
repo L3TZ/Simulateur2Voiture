@@ -18,7 +18,7 @@ import DomaineVoiture.Voiture;
 
 public class IHMVoiture extends JFrame implements Observer{
 
-	private double paramatreConversionMetresPixels = 0.5;
+	private double parametreConversionMetresPixels = 0.5;
 	private Voiture maVoiture;
 	private CommandeVoiture maCommandeVoiture;
 	
@@ -45,7 +45,7 @@ public class IHMVoiture extends JFrame implements Observer{
 	}
 	
 	public int calculerPositionPixels(int xMetres) {
-		return (int) (paramatreConversionMetresPixels * xMetres);	
+		return (int) (parametreConversionMetresPixels * xMetres);
 	}
 
 	@Override
