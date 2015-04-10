@@ -9,7 +9,7 @@ public class Route {
     private int largeur;
     private int longueur;
 
-    public Route(int origineX, int origineY, int largeur, int longueur) {
+    public Route(int origineX, int origineY, int largeur, int longueur, int angle) {
         this.origineX = origineX;
         this.origineY = origineY;
         this.largeur = largeur;

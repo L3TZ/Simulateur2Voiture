@@ -9,11 +9,12 @@ public class TestRoute {
 
 
     public void TestCreationRoute() {
-        Route route = new Route(100, 700, 10, 500);
+        Route route = new Route(100, 700, 10, 500, 90);
 
         assertEquals(100, route.getOrigineX());
         assertEquals(700, route.getOrigineY());
         assertEquals(10, route.getLargeur());
         assertEquals(500, route.getLongueur());
+        assertEquals(90, route.getAngle());
     }
 }
